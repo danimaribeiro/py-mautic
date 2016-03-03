@@ -1,0 +1,14 @@
+[paths]
+source =
+   src/pymautic
+   */site-packages/pymautic
+
+[run]
+branch = True
+source = pymautic
+parallel = true
+
+[report]
+show_missing = true
+precision = 2
+omit = *migrations*
